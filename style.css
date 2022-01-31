@@ -86,5 +86,8 @@ nav ul li a:hover{
         flex-wrap:wrap;
         flex-direction: column;
     }
+    .home-content .image{
+        margin:2%;
+    }
 
 }
