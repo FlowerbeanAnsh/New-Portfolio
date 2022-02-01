@@ -75,8 +75,104 @@ nav ul li a:hover{
     margin-top: 5%;
     margin-left: 17%;
 }
+.about{
+    margin-top: 6%;
+}
+.about .about-container .center-line{
+    position:absolute;
+    width: 8px;
+    background-color: rgb(218, 106, 106);
+    height: 105%;
+    margin-left: 20%;
+    margin-top: 13%;  
+    border-radius: 80%;
+    
+}
+.about .about-container .center-line:nth-child(odd){
+    background-color: turquoise;
+}
+
+.about .about-container .content #education{
+    color: rgb(241, 42, 42);
+    margin-bottom: 5%;
+    border-bottom: 1px solid #000;
+}
+.about .about-container{
+    display: flex;
+}
+.about .about-container .content{
+    margin-left: 30%;
+    margin-top: 15%;
 
 
+}
+.about .about-container .content .btech{
+    width: 100%;
+    height: 40%;
+    margin-bottom: 5%;
+    background-color: rgb(252, 11, 11,0.1);
+    border-radius: 20px;
+    
+    
+    
+   
+}
+.about .about-container .content .twe{
+    width: 100%;
+    height: 40%;
+    margin-bottom: 5%;
+    background-color: rgb(252, 11, 11,0.1);
+    border-radius: 20px;
+}
+.about .about-container .content .ten{
+    width: 100%;
+    height: 40%;
+    margin-bottom: 5%;
+    background-color: rgb(252, 11, 11,0.1);
+    border-radius: 20px;
+}
+.about .about-container .content h2{
+    color: rgb(221, 83, 78);
+    font-size: 21px;
+    
+}
+.about .about-container .content #head{
+    color: rgb(2, 0, 0);
+    font-size: 30px;
+    
+}
+
+.about .about-container .content h3{
+    color: rgb(94, 94, 94);
+    font-size: 19px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.about .about-container .skills-container h2{
+   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
+}
+.about .about-container .skills-container .skills{
+   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2%;
+    margin-left: 7%;
+  
+}
 @media (max-width:400px){
     nav{
         display: none;
@@ -88,15 +184,16 @@ nav ul li a:hover{
         width: 90%;
     }
     .home-content .image{
-        margin:2%;
+       
     }
     .home-content .image img{
-    width: 340px;
-    height: 340px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
+    margin-top: 6%;
 }
 .main-container{
-    width: 90%;
+    width: 60%;
 }
 
 }
