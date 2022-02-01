@@ -88,12 +88,10 @@ nav ul li a:hover{
     border-radius: 80%;
     
 }
-.about .about-container .center-line:nth-child(odd){
-    background-color: turquoise;
-}
+
 
 .about .about-container .content #education{
-    color: rgb(241, 42, 42);
+    color: rgb(221, 83, 78);
     margin-bottom: 5%;
     border-bottom: 1px solid #000;
 }
@@ -195,5 +193,78 @@ nav ul li a:hover{
 .main-container{
     width: 60%;
 }
+.about{
+    margin-top: 8%;
+}
+.about .about-container .center-line{
+    position:absolute;
+    width: 8px;
+    background-color: rgb(218, 106, 106);
+    height: 105%;
+    margin-left: 20%;
+    margin-top: 13%;  
+    border-radius: 80%;
+    
+}
+.about .about-container .content .btech{
+    width: 340px;
+    height: 130px;
+    margin-bottom: 5%;
+    background-color: rgb(252, 11, 11,0.1);
+    border-radius: 20px;
+    
+   
+}
+.about .about-container .content .twe{
+    width: 340px;
+    height: 130px;
+    margin-bottom: 5%;
+    background-color: rgb(252, 11, 11,0.1);
+    border-radius: 20px;
+}
+.about .about-container .content .ten{
+    width: 340px;
+    height: 130px;
+    margin-bottom: 5%;
+    background-color: rgb(252, 11, 11,0.1);
+    border-radius: 20px;
+}
+.about .about-container .content h2{
+    color: rgb(221, 83, 78);
+    font-size: 10px;
+    
+}
+.about .about-container .content #head{
+    color: rgb(2, 0, 0);
+    font-size: 14px;
+    
+}
 
+.about .about-container .content h3{
+    color: rgb(94, 94, 94);
+    font-size: 10px;
+    
+}
+.about .about-container .content{
+    margin-left: 17%;
+    margin-top: 15%;
+
+
+}
+.about .about-container .center-line{
+    position:absolute;
+    width: 6px;
+    background-color: rgb(218, 106, 106);
+    height: 55%;
+    margin-left: 6%;
+    margin-top: 13%;  
+    border-radius: 80%;
+    
+}
+.about .about-container .content #education{
+    color: rgb(221, 83, 78);
+    margin-bottom: 5%;
+    border-bottom: 1px solid #000;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
