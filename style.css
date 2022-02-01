@@ -255,7 +255,7 @@ nav ul li a:hover{
     position:absolute;
     width: 6px;
     background-color: rgb(218, 106, 106);
-    height: 55%;
+    height: 60%;
     margin-left: 6%;
     margin-top: 13%;  
     border-radius: 80%;
@@ -267,4 +267,5 @@ nav ul li a:hover{
     border-bottom: 1px solid #000;
     font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
 }
